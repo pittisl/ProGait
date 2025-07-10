@@ -23,7 +23,7 @@ transfemoral prosthetic legs.
 
 Example annotations:
 
-<img src="imgs/example.pdf" width="800" height="400">
+<img src="imgs/examples.pdf" width="800" height="400">
 
 
 ## ProGait Dataset
