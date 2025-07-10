@@ -4,7 +4,7 @@ This is the official repository for the paper ["ProGait: A Multi-Purpose Video D
 
 ## 🆕Updates
 - **`2025/7/10`** We have published our dataset at Hugging Face: [Link to download dataset](https://huggingface.co/datasets/ericyxy98/ProGait).
-- **`2025/6/25`** Our paper "ProGait: A Multi-Purpose Video Dataset and Benchmark for Transfemoral Prosthesis Users" got accepted by ICCV'25:tada::tada::tada:
+- **`2025/6/25`** Our paper "ProGait: A Multi-Purpose Video Dataset and Benchmark for Transfemoral Prosthesis Users" get accepted by ICCV'25! :tada: :tada: :tada:
 
 ## Table of Content
 - [About ProGait](#what-is-progait)
