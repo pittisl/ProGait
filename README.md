@@ -60,7 +60,7 @@ ProGait provides annotations for 3 different tasks:
 
 ## Terms of Use
 
-This project is released under the [MIT License](https://github.com/pittisl/ProGait/LICENSE.md). 
+This project is released under the [MIT License](https://github.com/pittisl/ProGait/LICENSE). 
 
 ## How to cite
 
