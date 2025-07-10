@@ -9,9 +9,9 @@ For the 3D whole-body benchmark and results please refer to [benchmark.md](bench
   - [Link to download dataset](https://huggingface.co/datasets/ericyxy98/ProGait).
 
 ## Table of Content
-- [About H3WB](#what-is-h3wb)
-- [Dataset](#h3wb-dataset)
-- [Pretrained models](#pretrained-models)
+- [About ProGait](#what-is-progait)
+- [Dataset](#progait-dataset)
+- [Baseline models](#baseline-models)
 - [Tasks](#tasks)
 - [Evaluation](#evaluation)
 - [How to cite](#how-to-cite)
