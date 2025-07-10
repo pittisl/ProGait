@@ -1,8 +1,6 @@
 # ProGait: A Multi-Purpose Video Dataset and Benchmark for Transfemoral Prosthesis Users
 
-This is the official repository for the paper ["ProGait: A Multi-Purpose Video Dataset and Benchmark for Transfemoral Prosthesis Users"](https://arxiv.org/abs/2211.15692) (ICCV'23). The repo contains Human3.6M 3D WholeBody (H3WB) annotations proposed in this paper.
-
-For the 3D whole-body benchmark and results please refer to [benchmark.md](benchmark.md).
+This is the official repository for the paper ["ProGait: A Multi-Purpose Video Dataset and Benchmark for Transfemoral Prosthesis Users"]() (ICCV'25).
 
 ## 🆕Updates
 - **`2025/8/12`** We have published our dataset at Hugging Face.
