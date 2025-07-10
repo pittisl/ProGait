@@ -28,7 +28,7 @@ Example annotations:
 <img src="imgs/example.pdf" width="800" height="400">
 
 
-## H3WB Dataset
+## ProGait Dataset
 
 ### Download
 
