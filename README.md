@@ -46,7 +46,7 @@ ProGait provides annotations for 3 different tasks:
  - Bounding boxes and segmentation masks of the prothesis user
 
 #### 2D Human Pose Estimation (HPE)
- - 23 pose keypoints of the target (17 for body and 6 for feet, following the [COCO-wholebody](https://github.com/jin-s13/COCO-WholeBody) keypoints definition)
+ - 23 pose keypoints of the target (17 for body and 6 for feet, following the [COCO-wholebody](https://github.com/jin-s13/COCO-WholeBody) definition)
 
 #### Gait Analysis
  - Text descriptions of four key components:
