@@ -3,7 +3,7 @@
 This is the official repository for the paper ["ProGait: A Multi-Purpose Video Dataset and Benchmark for Transfemoral Prosthesis Users"]() (ICCV'25).
 
 ## 🆕Updates
-- **`2025/8/12`** We have published our dataset at Hugging Face: [Link to download dataset](https://huggingface.co/datasets/ericyxy98/ProGait).
+- **`2025/7/10`** We have published our dataset at Hugging Face: [Link to download dataset](https://huggingface.co/datasets/ericyxy98/ProGait).
 
 ## Table of Content
 - [About ProGait](#what-is-progait)
@@ -24,12 +24,11 @@ Example annotations:
 
 <img src="imgs/examples.jpg">
 
-
 ## ProGait Dataset
 
 ### Download
 
-- The raw videos and annotations can be downloaded from the [HERE](https://huggingface.co/datasets/ericyxy98/ProGait).
+- The raw videos and corresponding annotations can be downloaded from the [HERE](https://huggingface.co/datasets/ericyxy98/ProGait).
 
 ### Usage
 
