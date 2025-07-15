@@ -1,6 +1,6 @@
 # ProGait: A Multi-Purpose Video Dataset and Benchmark for Transfemoral Prosthesis Users
 
-This is the official repository for the paper ["ProGait: A Multi-Purpose Video Dataset and Benchmark for Transfemoral Prosthesis Users"]() (ICCV'25).
+This is the official repository for the paper ["ProGait: A Multi-Purpose Video Dataset and Benchmark for Transfemoral Prosthesis Users"](https://arxiv.org/abs/2507.10223) (ICCV'25).
 
 ## 🆕Updates
 - **`2025/7/2`** We have published our dataset at Hugging Face: [Link to download dataset](https://huggingface.co/datasets/ericyxy98/ProGait).
