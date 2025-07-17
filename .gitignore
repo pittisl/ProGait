@@ -1,1 +1,7 @@
+<<<<<<< HEAD
 datasets/progait/*
+=======
+datasets/progait/annotations
+datasets/progait/videos
+datasets/progait/previews
+>>>>>>> efe8485 (Update README.md, setup basic environment)

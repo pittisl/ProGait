@@ -66,7 +66,11 @@ annotations
     conda activate progait
     ```
 3. **Prepare the dataset**
+<<<<<<< HEAD
     - Download the dataset. See [above](#progait-dataset)
+=======
+    - Download the dataset. See [above](#progait-dataset).
+>>>>>>> efe8485 (Update README.md, setup basic environment)
     - Place the data files under `datasets/progait/`, which should look like:
         ```
         .
