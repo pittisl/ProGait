@@ -3,7 +3,7 @@
 This is the official repository for the paper ["ProGait: A Multi-Purpose Video Dataset and Benchmark for Transfemoral Prosthesis Users"](https://arxiv.org/abs/2507.10223) (ICCV'25).
 
 ## 🆕Updates
-- **`2025/7/2`** We have published our dataset at Hugging Face: [Link to download dataset](https://huggingface.co/datasets/ericyxy98/ProGait).
+- **`2025/7/2`** We have published our dataset at Hugging Face: [Link to the dataset page](https://huggingface.co/datasets/ericyxy98/ProGait).
 - **`2025/6/25`** Our paper "ProGait: A Multi-Purpose Video Dataset and Benchmark for Transfemoral Prosthesis Users" get accepted by ICCV'25! :tada: :tada: :tada:
 
 ## Table of Content
@@ -29,11 +29,67 @@ Example annotations:
 
 ### Download
 
-- The raw videos and corresponding annotations can be downloaded from the [HERE](https://huggingface.co/datasets/ericyxy98/ProGait).
+- The raw videos and corresponding annotations is available [HERE](https://huggingface.co/datasets/ericyxy98/ProGait).
+- Instructions for downloading can be found [HERE](https://huggingface.co/docs/hub/en/datasets-downloading). Use `huggingface-cli` for example:
+    ```bash
+    huggingface-cli download ericyxy98/ProGait --repo-type dataset --local-dir path/to/dataset
+    rm -r path/to/dataset/.cache
+    ```
+
+### Annotation format
+
+```
+annotations
+├── inside    <------------------ Scenario: inside parallel bars
+│   ├── *_annotations.xml  <----- CVAT XML format
+│   ├── *_keypoints.npy.gz  <---- 2D pose keypoints in format of numpy ndarray
+│   ├── *_masks.npy.gz  <-------- Segmentation masks in format of numpy ndarray
+│   └── *.txt  <----------------- Textual descriptions
+└── outside   <------------------ Scenario: outside parallel bars
+    └── ...
+```
+- The IDs are named in format of `<subject>_<prosthesis>_<trial>_<f(rontal)/s(agittal)>[_<additional round trips>]`. For example: `1_3_2_f` refers to the frontal view of Subject 1 using their 3rd prosthesis and having their 2nd walking trial; `2_6_2_s_2` refers to the sagittal view of Subject 2 using their 6th prosthesis and having their 2nd walking trial, specifically the 2nd additional round-trip (which is the 3rd overall).
+- Pose keypoints have dimensions of ``(num_frames, num_keypoints, 3)``, where the 3 corresponds to x-, y-coordinates, and confidence scores. 
+- Segmentation masks have dimensions of ``(num_frames, frame_height, frame_width, 1)``.
+- NOTE: A single text description can apply to multiple video sequences within the same walking trial.
 
 ### Usage
 
-- TBD
+1. **Clone the repository**
+    ```bash
+    git clone https://github.com/pittisl/ProGait.git
+    cd ProGait
+    ```
+2. **Setup the virtual environment**
+    ```bash
+    conda env create -f environment.yml
+    conda activate progait
+    ```
+3. **Prepare the dataset**
+    - Download the dataset. See [above](#progait-dataset)
+    - Place the data files under `datasets/progait/`, which should look like:
+        ```
+        .
+        ├── datasets
+        │   └── progait
+        │       ├── annotations
+        │       |   └── ...
+        │       ├── previews
+        │       |   └── ...
+        │       ├── videos
+        │       |   └── ...
+        │       └── metadata.jsonl
+        ├── scripts
+        │   └── ...
+        ├── models
+        │   └── ...
+        ├── README.md
+        └── ...
+        ```
+4. **Run the demo**
+    ```
+    python verify_data.py
+    ```
 
 ## Baseline models
 

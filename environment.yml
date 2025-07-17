@@ -1,0 +1,15 @@
+name: progait
+dependencies:
+  - python=3.11
+  - pip
+  - pip:
+      - numpy
+      - pandas
+      - scikit-learn
+      - matplotlib
+      - opencv-python
+      - jupyterlab
+      - huggingface_hub[cli]
+  - conda-forge::scipy
+  - conda-forge::pillow
+  - conda-forge::tqdm
