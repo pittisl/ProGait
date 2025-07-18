@@ -119,6 +119,10 @@ ProGait provides annotations for 3 different tasks:
 
 This project is released under the [MIT License](https://github.com/pittisl/ProGait/blob/main/LICENSE). 
 
+## Disclaimer
+
+We are aware that Orthocare Innovations PLLC also used "ProGait" as the name of their mobile app product. Our work and dataset are not affiliated with Orthocare Innovations PLLC, and are not associated with their ProGait app, Europa+ system, or any other product.
+
 ## How to cite
 
 If you find ProGait dataset useful for your project, please cite our paper as follows.
