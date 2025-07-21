@@ -21,7 +21,7 @@ language:
 
 # ProGait: A Multi-Purpose Video Dataset and Benchmark for Transfemoral Prosthesis Users
 
-This is the official repository for the paper ["ProGait: A Multi-Purpose Video Dataset and Benchmark for Transfemoral Prosthesis Users"]() (ICCV'25).
+This is the official repository for the paper ["ProGait: A Multi-Purpose Video Dataset and Benchmark for Transfemoral Prosthesis Users"](https://arxiv.org/abs/2507.10223) (ICCV'25).
 
 ## What is ProGait
 
@@ -46,6 +46,10 @@ ProGait provides annotations for 3 different tasks:
     - The specific gait deviation
     - Recommendations on how to adjust the prosthesis to correct the gait
     - The reasons of these recommendations
+
+## Disclaimer
+
+We are aware that Orthocare Innovations PLLC also used "ProGait" as the name of their mobile app product. Our work and dataset are not affiliated with Orthocare Innovations PLLC, and are not associated with their ProGait app, Europa+ system, or any other product.
 
 ## How to cite
 
